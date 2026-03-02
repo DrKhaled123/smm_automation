@@ -1,0 +1,92 @@
+[
+  {
+    "__comment": "Each account is a complete self-contained profile.",
+    "id": "ig_account_01",
+    "platform": "instagram",
+    "username": "your_username",
+    "password": "your_password",
+    "fa_secret": "",
+    "country": "us",
+    "timezone": "America/New_York",
+    "language": "en-US",
+    "target_users": [
+      "competitor_page_1",
+      "competitor_page_2",
+      "niche_influencer_1"
+    ],
+    "feed_urls": [
+      "https://www.instagram.com/p/POST_SHORTCODE_1/",
+      "https://www.instagram.com/p/POST_SHORTCODE_2/"
+    ],
+    "comment_templates": [
+      "Love this! 🔥",
+      "Great content as always!",
+      "This is so inspiring 💪",
+      "Amazing work!"
+    ],
+    "post_queue": [
+      {
+        "image": "data/content/post1.jpg",
+        "caption": "Your caption here #hashtag1 #hashtag2"
+      },
+      {
+        "image": "data/content/post2.jpg",
+        "caption": "Another caption"
+      }
+    ]
+  },
+  {
+    "id": "fb_account_01",
+    "platform": "facebook",
+    "username": "email@example.com",
+    "password": "your_password",
+    "fa_secret": "",
+    "country": "us",
+    "timezone": "America/New_York",
+    "target_users": ["target_page_1"],
+    "feed_urls": [],
+    "comment_templates": ["Great post!", "Thanks for sharing!"],
+    "post_queue": [
+      {
+        "text": "Check out our latest offer! Limited time only."
+      }
+    ]
+  },
+  {
+    "id": "tw_account_01",
+    "platform": "twitter",
+    "username": "your_handle",
+    "password": "your_password",
+    "fa_secret": "",
+    "country": "us",
+    "target_users": ["target_user1"],
+    "feed_urls": [
+      "https://twitter.com/user/status/TWEET_ID_1"
+    ],
+    "comment_templates": ["Great thread!", "Totally agree! 🙌"],
+    "post_queue": [
+      {
+        "text": "Your tweet text here — keep under 280 chars. #tag"
+      }
+    ]
+  },
+  {
+    "id": "tt_account_01",
+    "platform": "tiktok",
+    "username": "your_tiktok_handle",
+    "password": "your_password",
+    "fa_secret": "",
+    "country": "us",
+    "target_users": ["tiktok_creator_1"],
+    "feed_urls": [
+      "https://www.tiktok.com/@user/video/VIDEO_ID"
+    ],
+    "comment_templates": ["This is fire 🔥", "You're so talented!"],
+    "post_queue": [
+      {
+        "image": "data/content/video1.mp4",
+        "caption": "TikTok caption #fyp #viral"
+      }
+    ]
+  }
+]
